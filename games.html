@@ -1,13 +1,18 @@
-<style>
-  #grad {
-  height: 125%;
-  width: 125%;
-  background-color: violet; /* For browsers that do not support gradients */
-  background-image: radial-gradient(circle, #7F00FF, #990099);
-}
-</style>
-<div id="grad"></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #grad {
+      height: 125vh;
+      width: 125vw;
+      background-color: violet; /* fallback */
+      background-image: radial-gradient(circle, #7F00FF, #990099);
+    }
+  </style>
+</head>
 
 <body>
-  <p1 style="color:white">hello</p1>
+  <div id="grad"></div>
+  <h1 style="color:white">hello</h1>
 </body>
+</html>
